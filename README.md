@@ -1,2 +1,2 @@
-# video-player
-HTML5 video player plugin for the Shower presentation engine
+# shower-media-control
+HTML5 media control plugin for the Shower presentation engine
