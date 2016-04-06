@@ -1,6 +1,6 @@
 # HMTL5 media element control plugin for Shower
 
-Plugin for the Shower presentation engine [Shower](https://github.com/shower/shower/)
+Plugin for the [Shower](https://github.com/shower/shower/) presentation engine.
 
 Support playing all HTML5 media (audio, video) elements on a slide on 'next' slide events.
 * Elements are played sequentially, one per event.
