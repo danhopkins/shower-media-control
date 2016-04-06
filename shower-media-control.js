@@ -3,6 +3,7 @@
  * HTML5 media elements control plugin for shower.
  * - any slides containing media elements intercept 'next' events and play
  *   media sequentially, one per 'next' event
+ * - all media elements reset played state on slide (re)activation
  */
 shower.modules.define('shower-media-control', [
     'util.extend'
@@ -63,7 +64,7 @@ shower.modules.define('shower-media-control', [
                 if (mediaNodes.length > 0) {
                     for (var i=0; i < mediaNodes.length; i++) {
                         var media = mediaNodes.item(i);
-                        media.currentTime = 0;
+                        media.currentTime = 0;  // always reset all media
                         this._mediaElements.push(media);
                     }
                 }
