@@ -1,0 +1,36 @@
+{
+  "name": "shower-media-control",
+  "description": "HTML5 media control plugin for Shower HTML presentation engine",
+  "version": "0.0.1",
+  "author": {
+    "name": "Dan Hopkins",
+    "url": ""
+  },
+  "homepage": "https://github.com/danhopkins/shower/shower-media-control",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danhopkins/shower/shower-media-control.git"
+  },
+  "bugs": {
+    "url": "http://github.com/shower/shower/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shower/shower/wiki/MIT-License"
+    }
+  ],
+  "keywords": [
+    "shower",
+    "presentation",
+    "plugin",
+    "video",
+    "audio",
+    "media"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bump": "0.7.0",
+    "load-grunt-tasks": "^3.4.1"
+  }
+}
