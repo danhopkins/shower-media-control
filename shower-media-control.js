@@ -62,12 +62,13 @@ shower.modules.define('shower-media-control', [
         _onSlideModeExit: function() {
             // When exiting back to list mode, ensure we stop any playing media
             var mediaNodes = document.body.querySelectorAll(this._mediaSelector);
-            mediaNodes.forEach(function(media) {
+            for (var i=0; i < mediaNodes.length; i++) {
+                var media = mediaNodes.item(i);
                 if (media.currentTime > 0) {
                     media.pause();
                     media.currentTime = 0;
                 }
-            });
+            }
         },
 
         _clearListeners: function () {
