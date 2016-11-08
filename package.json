@@ -1,10 +1,10 @@
 {
   "name": "shower-media-control",
   "description": "HTML5 media control plugin for Shower HTML presentation engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Dan Hopkins",
-    "url": ""
+    "url": "https://github.com/danhopkins/"
   },
   "homepage": "https://github.com/danhopkins/shower/shower-media-control",
   "repository": {
